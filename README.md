@@ -3,6 +3,10 @@
 - When you install a distribution using wsl --install -d <distro> or from the Microsoft Store, it is installed by default in %USERPROFILE%\AppData\Local\Packages\<PackageName>. These can be "moved" by exporting them and re-importing them.
 - [Installing WSL on another drive in Windows](https://dev.to/mefaba/installing-wsl-on-another-drive-in-windows-5c4a)
 
+## To get hardwae component rating
+- open windows powershell as admin
+- paste this command "Get-CimInstance Win32_WinSat"
+  
 ## WSL-2 (Linux on windows)
 
 - wsl --set-version Ubuntu-22.04 2 to move from wsl to wsl-2 and able to run ollama models
