@@ -6,6 +6,9 @@
 ## To get hardwae component rating
 - open windows powershell as admin
 - paste this command "Get-CimInstance Win32_WinSat"
+
+## Dark mode in chrome
+chrome://flags -> search for dark mode -> enable
   
 ## WSL-2 (Linux on windows)
 
